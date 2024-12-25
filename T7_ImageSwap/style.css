@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(24, 101, 76);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+}
+

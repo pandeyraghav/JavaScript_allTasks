@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 40px;
+    gap: 35px;
+    flex-wrap: wrap;
+    background-color: #d9dddf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 260px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.card .cover{
+    padding: 4px 4px 0px 4px;
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+}
+
+.card .cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .profile .profile-img>img{
+    transform: translateY(-10px);
+    /* padding: 0px; */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card .profile h1{
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.card .profile h4{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.card .profile p{
+    margin-top: 10px;
+    text-align: center;
+    padding: 0px 17px;
+    font-size: 8px;
+    font-weight: 300;
+}
+
+.card .profile .line{
+    width: 15%;
+    height: 1px;
+    background-color: #b8aaaa;
+    margin-top: 10px;
+}
+
+.media-sec{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+    /* padding: 0px 15px; */
+    width: 100%;
+    margin-top: 12px;
+}
+
+.media-sec .media{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.media-sec .media h2{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.media-sec .media p{
+    margin-top: 2px;
+    font-size: 7px;
+    font-weight: 300;
+}
+
+.verify{
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verify img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-img{
+    position: relative;
+}
